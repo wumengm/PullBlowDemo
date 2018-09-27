@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |s|
     s.name         = "GithubPull"
-    s.version      = "1.0.0"
-    s.ios.deployment_target = '7.0'
+    s.version      = "1.1.5"
+    s.ios.deployment_target = '8.0'
     s.summary      = "A delightful setting interface framework."
     s.homepage     = "https://github.com/wumengm/PullBlowDemo.git"
     s.license              = { :type => "MIT", :file => "LICENSE" }
