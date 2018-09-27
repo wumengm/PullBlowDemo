@@ -15,6 +15,8 @@
 		A4068812215B30FE005FD309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4068811215B30FE005FD309 /* main.m */; };
 		A406881C215B30FE005FD309 /* OnceCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A406881B215B30FE005FD309 /* OnceCloneTests.m */; };
 		A4068827215B30FE005FD309 /* OnceCloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4068826215B30FE005FD309 /* OnceCloneUITests.m */; };
+		A43211B0215C7F8000DB1B6D /* OnceKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = A43211AC215C7F8000DB1B6D /* OnceKitController.m */; };
+		A43211B1215C7F8000DB1B6D /* psb-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A43211AF215C7F8000DB1B6D /* psb-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A4068822215B30FE005FD309 /* OnceCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnceCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4068826215B30FE005FD309 /* OnceCloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnceCloneUITests.m; sourceTree = "<group>"; };
 		A4068828215B30FE005FD309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43211AC215C7F8000DB1B6D /* OnceKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceKitController.m; sourceTree = "<group>"; };
+		A43211AD215C7F8000DB1B6D /* OnceKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceKitController.h; sourceTree = "<group>"; };
+		A43211AF215C7F8000DB1B6D /* psb-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "psb-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,7 @@
 				A406880D215B30FE005FD309 /* LaunchScreen.storyboard */,
 				A4068810215B30FE005FD309 /* Info.plist */,
 				A4068811215B30FE005FD309 /* main.m */,
+				A43211AA215C7F8000DB1B6D /* Class */,
 			);
 			path = OnceClone;
 			sourceTree = "<group>";
@@ -130,6 +136,32 @@
 				A4068828215B30FE005FD309 /* Info.plist */,
 			);
 			path = OnceCloneUITests;
+			sourceTree = "<group>";
+		};
+		A43211AA215C7F8000DB1B6D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A43211AB215C7F8000DB1B6D /* OnceKit */,
+				A43211AE215C7F8000DB1B6D /* Results */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A43211AB215C7F8000DB1B6D /* OnceKit */ = {
+			isa = PBXGroup;
+			children = (
+				A43211AC215C7F8000DB1B6D /* OnceKitController.m */,
+				A43211AD215C7F8000DB1B6D /* OnceKitController.h */,
+			);
+			path = OnceKit;
+			sourceTree = "<group>";
+		};
+		A43211AE215C7F8000DB1B6D /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				A43211AF215C7F8000DB1B6D /* psb-2.jpeg */,
+			);
+			path = Results;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +269,7 @@
 			files = (
 				A406880F215B30FE005FD309 /* LaunchScreen.storyboard in Resources */,
 				A406880C215B30FE005FD309 /* Assets.xcassets in Resources */,
+				A43211B1215C7F8000DB1B6D /* psb-2.jpeg in Resources */,
 				A406880A215B30FD005FD309 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +298,7 @@
 				A4068807215B30FD005FD309 /* ViewController.m in Sources */,
 				A4068812215B30FE005FD309 /* main.m in Sources */,
 				A4068804215B30FD005FD309 /* AppDelegate.m in Sources */,
+				A43211B0215C7F8000DB1B6D /* OnceKitController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
